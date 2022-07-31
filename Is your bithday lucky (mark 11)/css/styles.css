@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(to right, #00df00, rgb(28, 148, 167));
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+.heading {
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+span {
+  color: #fff;
+}
+.label01 {
+  display: block;
+  margin: 1rem 0;
+}
+#date-of-birth {
+  width: 250px;
+  height: 2rem;
+  background-color: #ddd;
+  font-size: 1.2rem;
+}
+.label02 {
+  display: block;
+  margin: 1rem 0;
+}
+#lucky-number {
+  width: 250px;
+  height: 2rem;
+  background-color: #ddd;
+  font-size: 1.2rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+.btn-bg {
+  background-color: rgb(9, 9, 68);
+  color: #fff;
+}
+.btn:hover {
+  transform: translateY(-3px);
+}
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.output-message {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
