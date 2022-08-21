@@ -30,4 +30,12 @@ const compareData = function (sum, luckyNumberEl) {
   }
 };
 
-luckBtn.addEventListener('click', checkDobIsLucky);
+// luckBtn.addEventListener('click', checkDobIsLucky);
+
+luckBtn.addEventListener('click', function () {
+  if (Number(dateOfBirthEl.value) == 0 || Number(luckyNumberEl.value) == 0) {
+    document.querySelector('.output-message').textContent = 'Invalid input';
+  } else {
+    checkDobIsLucky();
+  }
+});
