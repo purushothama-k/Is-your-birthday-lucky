@@ -2,4 +2,4 @@
 This is mark 11 task from NeogCamp levelzero, whereas you can check if your birthday is lucky or not.
 
 
-live link:https: //isyourbirthdaylucky-p.netlify.app/
+live link: https://isyourbirthdaylucky-p.netlify.app/
